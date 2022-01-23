@@ -26,7 +26,6 @@ body{
     width:80%;
     display: flex;
     align-items: center;
-    /* background: crimson; */
 }
 .wrapper nav label{
     display: block;
@@ -44,7 +43,7 @@ body{
     position: absolute;
     height: 100%;
     width: 20%;
-    background: #17a2b8;
+    /* background: #17a2b8; */
     border-radius: 5px;
     z-index: 0;
     left:0;
