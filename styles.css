@@ -39,13 +39,25 @@ body{
     z-index: 1;
     position: relative;
 }
+.wrapper nav label i{
+    padding-right: 4px;
+}
 .wrapper nav .slider{
     position: absolute;
     height: 100%;
     width: 20%;
-    /* background: #17a2b8; */
+    background: #17a2b8;
     border-radius: 5px;
     z-index: 0;
     left:0;
     bottom:0;
+}
+#product:checked ~ nav .slider{
+    left:28%;
+}
+#help:checked ~ nav .slider{
+    left:55%;
+}
+#contact:checked ~ nav .slider{
+    left:76%;
 }
