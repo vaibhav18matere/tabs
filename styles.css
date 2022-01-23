@@ -27,6 +27,13 @@ body{
     display: flex;
     align-items: center;
 }
+#home:checked ~ nav label.home,
+#product:checked ~ nav label.product,
+#help:checked ~ nav label.help,
+#contact:checked ~ nav label.contact
+{
+    color: white;
+}
 .wrapper nav label{
     display: block;
     height: 100%;
@@ -51,6 +58,7 @@ body{
     z-index: 0;
     left:0;
     bottom:0;
+    transition: all 0.3s ease;
 }
 #product:checked ~ nav .slider{
     left:28%;
