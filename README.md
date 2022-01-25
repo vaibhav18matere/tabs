@@ -1,2 +1,2 @@
 # tabs
-- Link : tabs-slider.netlify.app
+- Link : https://tabs-slider.netlify.app
